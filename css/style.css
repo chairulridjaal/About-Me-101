@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: 'JetBrains Mono', monospace;
     margin: 0;
@@ -69,7 +68,7 @@ header {
 }
 
 .nav-link.active {
-    background-color: #00ff99; /* Example active background */
+    background-color: #00ff99; 
     border-radius: 30px;
     transition: 0.3s;
     color: #00140D;
@@ -240,7 +239,7 @@ h2 {
     text-align: center;
     font-size: 40px;
     margin-bottom: 50px;
-    padding-top: 100px; /* Adjusted for better spacing */
+    padding-top: 100px; 
 }
 
 .experience-container {
@@ -425,9 +424,9 @@ h2 {
 
     .home-section {
         display: flex;
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center align items */
-        padding: 0 20px; /* Adjust padding for smaller screens */
+        flex-direction: column; 
+        align-items: center; 
+        padding: 0 20px; 
     }
     .image-container {
         order: 1;
@@ -435,12 +434,11 @@ h2 {
     }
     
     .image-container img {
-        max-width: 100%; /* Prevent overflow */
-        height: auto; /* Maintain aspect ratio */
-        border-radius: 8px; /* Rounded corners */
+        max-width: 100%; 
+        height: auto;
+        border-radius: 8px; 
         text-align: center;
     }
-    
     
     .content {
         order: 2;
@@ -448,8 +446,8 @@ h2 {
     }
     
     .content h1 {
-        margin-left: 0; /* Reset margin */
-        text-align: left; /* Center align text */
+        margin-left: 0;
+        text-align: left;
         font-size: 32px; 
         font-weight: bolder;
         margin-bottom: 10px;
@@ -467,9 +465,9 @@ h2 {
     }
     
     .content p {
-        margin-left: 0; /* Reset margin */
-        margin-right: 0; /* Reset margin */
-        text-align: left; /* Center align text */
+        margin-left: 0;
+        margin-right: 0; 
+        text-align: left; 
         font-size: 13px; 
         line-height: 1.4;
         margin-bottom: 25px;
@@ -478,7 +476,7 @@ h2 {
 
     .cta-button {
         margin-left: 0;
-        text-align: center; /* Center text */
+        text-align: center;
         font-size: 14px;
     }
 
@@ -543,9 +541,9 @@ h2 {
     }
     
     .passion p {
-        margin-left: 0; /* Reset margin */
-        margin-right: 0; /* Reset margin */
-        text-align: center; /* Center align text */
+        margin-left: 0; 
+        margin-right: 0; 
+        text-align: center; 
         font-size: 13px; 
         line-height: 1.4;
         font-weight: 400;
@@ -562,8 +560,8 @@ h2 {
         font-size: 10px;
         margin-top: 5%;
         background-color: rgb(1, 51, 31);
-        border: 2px solid #00FF8B; /* Green border color */
-        border-radius: 90px; /* Round the edges */
+        border: 2px solid #00FF8B; 
+        border-radius: 90px;
         padding: 5px 10px;
         margin-left: 2%;
         margin-right: 2%;
@@ -599,7 +597,7 @@ h2 {
     }
     
     .nav-link.active {
-        background-color: #00ff99; /* Example active background */
+        background-color: #00ff99;
         border-radius: 30px;
         transition: 0.3s;
         color: #00140D;
