@@ -12,12 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const rect = link.getBoundingClientRect();
         const containerRect = link.parentElement.getBoundingClientRect();
 
-        // Set the width and position of the indicator
         activeIndicator.style.width = `${rect.width}px`;
         activeIndicator.style.left = `${rect.left - containerRect.left}px`;
     }
 
-    // Initial setup
     setActiveLink(document.querySelector('.nav-link'));
 
     navLinks.forEach(link => {
@@ -30,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Update indicator on scroll
     document.addEventListener('scroll', function() {
         let scrollPos = window.scrollY + 100;
         navLinks.forEach(link => {
@@ -41,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Make sure the indicator is in place on load
     window.addEventListener('resize', function() {
         const activeLink = document.querySelector('.nav-link.active');
         if (activeLink) {
